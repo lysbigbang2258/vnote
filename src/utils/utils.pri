@@ -1,6 +1,7 @@
 QT += widgets svg
 
 SOURCES += \
+    $$PWD/contentmediautils.cpp \
     $$PWD/docsutils.cpp \
     $$PWD/htmlutils.cpp \
     $$PWD/pathutils.cpp \
@@ -9,10 +10,12 @@ SOURCES += \
     $$PWD/utils.cpp \
     $$PWD/fileutils.cpp \
     $$PWD/iconutils.cpp \
+    $$PWD/webutils.cpp \
     $$PWD/widgetutils.cpp \
     $$PWD/clipboardutils.cpp
 
 HEADERS += \
+    $$PWD/contentmediautils.h \
     $$PWD/docsutils.h \
     $$PWD/htmlutils.h \
     $$PWD/pathutils.h \
@@ -21,5 +24,6 @@ HEADERS += \
     $$PWD/utils.h \
     $$PWD/fileutils.h \
     $$PWD/iconutils.h \
+    $$PWD/webutils.h \
     $$PWD/widgetutils.h \
     $$PWD/clipboardutils.h
